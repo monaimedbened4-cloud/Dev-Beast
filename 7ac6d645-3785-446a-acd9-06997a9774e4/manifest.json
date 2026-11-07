@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Etsy Listing to PDF",
+  "version": "1.0.0",
+  "description": "One click: download the current Etsy listing (title + all high-quality images) as a PDF.",
+  "permissions": ["activeTab", "scripting", "downloads"],
+  "host_permissions": ["https://www.etsy.com/*", "https://i.etsystatic.com/*"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_title": "Download listing as PDF", "default_icon": { "16": "icon16.png", "48": "icon48.png", "128": "icon128.png" } },
+  "icons": { "16": "icon16.png", "48": "icon48.png", "128": "icon128.png" }
+}
